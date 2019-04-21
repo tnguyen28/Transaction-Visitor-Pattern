@@ -5,7 +5,8 @@ public class ShoppingCartClient {
         Item[] items = new Item[]{
                 new Phones(100.12, "iPhone 6s"),
                 new Phones(300.34,"Samsung Galaxy 3"),
-                new Seafood(12.12, 3, "Crab")
+                new Seafood(12.12, 3, "Crab"),
+                new Seafood(5.55, 10, "Crayfish")
         };
 
         calculateTotalPrice(items);
